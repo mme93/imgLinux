@@ -4,7 +4,6 @@ WORKDIR /imageReader-app
 
 RUN pip install Pillow
 RUN pip install numpy
-RUN pip install cmake
 RUN pip install opencv-python
 
 COPY ./app ./app
